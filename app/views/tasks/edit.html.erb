@@ -1,0 +1,11 @@
+<% content_for :title, "Editing task" %>
+
+<h1>Editing task</h1>
+
+<%= render "form", task: @task %>
+
+<br>
+
+<div class="d-flex justify-content-between">
+  <%= link_to "Back to tasks", tasks_path, class: "btn btn-secondary btn-primary m-1" %>
+</div>
